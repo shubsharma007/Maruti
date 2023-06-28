@@ -1,45 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-    <!--    <com.ncorti.slidetoact.SlideToActView-->
-    <!--        android:id="@+id/example"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        app:bounce_on_start="true"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent"-->
-    <!--        app:text="जय श्री राम"-->
-    <!--        app:inner_color="@color/black"-->
-    <!--        app:outer_color="#00000000"-->
-    <!--        app:text_color="#FBB917"-->
-    <!--        app:text_size="26sp"-->
-    <!--        app:text_style="bold" />-->
-
-    <com.ncorti.slidetoact.SlideToActView
-        android:id="@+id/slide"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:animation_duration="250"
-        app:border_radius="2dp"
-        app:inner_color="@color/purple_200"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:outer_color="#00000000"
-        app:slider_height="80dp"
-        app:slider_locked="false"
-        app:text="जय श्री राम"
-        app:text_color="#FBB917"
-        app:text_size="26sp"
-        app:text_style="bold" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

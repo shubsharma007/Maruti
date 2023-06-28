@@ -1,12 +1,12 @@
 package com.example.maruti;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.os.Handler;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.maruti.Login.Login;
 import com.example.maruti.databinding.ActivitySplashBinding;
 
 public class Splash extends AppCompatActivity {
@@ -21,8 +21,9 @@ public class Splash extends AppCompatActivity {
             public void onTick(long millisUntilFinished) {
 
             }
+
             public void onFinish() {
-                startActivity(new Intent(Splash.this, MainActivity.class));
+                startActivity(new Intent(Splash.this, Login.class));
                 finish();
             }
         }.start();

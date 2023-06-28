@@ -17,11 +17,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        binding.slide.setOnSlideCompleteListener(new SlideToActView.OnSlideCompleteListener() {
-            @Override
-            public void onSlideComplete(@NonNull SlideToActView slideToActView) {
-                Toast.makeText(MainActivity.this, "जय श्री राम", Toast.LENGTH_SHORT).show();
-            }
-        });
+
     }
 }
